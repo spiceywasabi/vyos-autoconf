@@ -57,7 +57,6 @@ set nat source rule 30 translation address 'masquerade'
 commit
 echo "setting services"
 set system time-zone America/Los_Angeles
-set system host-name 'amnesiac'
 set firewall all-ping enable
 set service lldp interface all
 set service lldp legacy-protocols cdp
